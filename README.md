@@ -142,11 +142,5 @@ If you find this repository useful:
 
 ---
 
-## Related Repositories
-
-- [Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)
-- [Open Claude Cowork](https://github.com/ComposioHQ/open-claude-cowork)
-
----
 
 Built for the OpenAI Codex ecosystem 🚀
