@@ -1,8 +1,18 @@
+# Awesome Codex Plugins
+
 <p align="center">
-  <img src="assets/banner.png" alt="Awesome Codex Plugins Banner"/>
+  <img src="assets/banner.png" width="100%" />
 </p>
 
-# Awesome Codex Plugins
+<p align="center">
+  Curated plugins, MCP servers, workflows, and developer tools for OpenAI Codex
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Codex-Plugins-blue" />
+  <img src="https://img.shields.io/badge/MCP-Supported-green" />
+  <img src="https://img.shields.io/badge/Contributions-Welcome-orange" />
+</p>
 
 > A curated collection of the best plugins, MCP servers, workflows, integrations, and developer tools for OpenAI Codex.
 
