@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Awesome Codex Plugins Banner"/>
+</p>
+
 # Awesome Codex Plugins
 
 > A curated collection of the best plugins, MCP servers, workflows, integrations, and developer tools for OpenAI Codex.
