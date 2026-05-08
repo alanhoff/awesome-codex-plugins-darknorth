@@ -12,28 +12,31 @@ Context7 MCP helps Codex generate more accurate, framework-aware, and context-ri
 |---|---|
 | Plugin Name | Context7 MCP |
 | Category | MCP / Documentation / AI |
-| Created By | Context7 |
+| Created By | Upstash |
 | Type | MCP Server |
-| Best For | Real-time documentation and code context for AI-assisted development |
+| Best For | Real-time documentation and framework-aware AI coding |
 
 ---
 
 # Repository
 
-- GitHub: https://github.com/upstash/context7
-- Website: https://context7.com
+| Resource | Link |
+|---|---|
+| GitHub | [Context7 GitHub Repository](https://github.com/upstash/context7?utm_source=chatgpt.com) |
+| Website | [Context7 Official Website](https://context7.com/?utm_source=chatgpt.com) |
+| NPM Package | [@upstash/context7-mcp](https://www.npmjs.com/package/@upstash/context7-mcp?utm_source=chatgpt.com) |
 
 ---
 
 # Features
 
 - Real-time documentation access
+- Version-specific code examples
 - Framework-aware code generation
-- Fresh code examples
-- AI context enhancement
-- Reduced outdated responses
-- Improved implementation accuracy
-- Better library and API understanding
+- Reduced hallucinations
+- Better API usage accuracy
+- Improved autonomous coding workflows
+- AI-ready documentation retrieval
 
 ---
 
@@ -41,38 +44,120 @@ Context7 MCP helps Codex generate more accurate, framework-aware, and context-ri
 
 | Use Case | Description |
 |---|---|
-| AI Coding Agents | Provide live documentation to coding workflows |
-| Full Stack Development | Access framework-specific implementation examples |
-| API Integrations | Improve API usage accuracy |
+| OpenAI Codex | Inject live documentation into coding workflows |
+| AI Coding Agents | Improve implementation accuracy |
+| Full Stack Development | Work with modern frameworks and APIs |
+| API Integrations | Generate more reliable API implementations |
 | Learning Workflows | Understand libraries using real examples |
-| Autonomous Development | Enable agents to work with current documentation |
+| Autonomous Agents | Enable framework-aware code generation |
 
 ---
 
-# Setup
+# Setup in Codex
 
-## Installation
+## Prerequisites
 
-Install and configure the MCP server inside your Codex or MCP-compatible environment.
+Make sure you have:
+- Node.js installed
+- OpenAI Codex CLI installed
+- npm or npx available in terminal
+
+---
+
+## Install Context7 MCP in Codex
+
+Run the following command in your terminal:
 
 ```bash
-npm install -g @upstash/context7-mcp
+codex mcp add context7 -- npx -y @upstash/context7-mcp
 ```
+
+This registers Context7 as an MCP server inside Codex. :contentReference[oaicite:3]{index=3}
 
 ---
 
-## Example MCP Configuration
+## Verify Installation
 
-```json
-{
-  "mcpServers": {
-    "context7": {
-      "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
-    }
-  }
-}
+Run:
+
+```bash
+codex mcp list
 ```
+
+You should see:
+
+```txt
+context7
+```
+
+listed as an active MCP server. :contentReference[oaicite:4]{index=4}
+
+---
+
+## Alternative Manual Configuration
+
+You can also configure it manually inside:
+
+```txt
+~/.codex/config.toml
+```
+
+Add:
+
+```toml
+[mcp_servers.context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp"]
+```
+
+:contentReference[oaicite:5]{index=5}
+
+---
+
+# Optional API Key Setup
+
+For better rate limits and performance:
+
+1. Create a free account at:
+   [Context7 Dashboard](https://context7.com/?utm_source=chatgpt.com)
+
+2. Generate an API key
+
+3. Add the API key:
+
+```toml
+[mcp_servers.context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+```
+
+:contentReference[oaicite:7]{index=7}
+
+---
+
+# How to Use in Codex
+
+Once installed, simply mention Context7 in prompts.
+
+## Example Prompt
+
+```txt
+Create a Next.js authentication system using the latest App Router patterns. Use Context7.
+```
+
+## Another Example
+
+```txt
+Show me the latest Supabase authentication API. Use Context7.
+```
+
+Context7 will:
+- Fetch latest documentation
+- Retrieve updated code examples
+- Supply framework-aware references
+- Help Codex generate modern implementations
+
+:contentReference[oaicite:8]{index=8}
 
 ---
 
@@ -81,15 +166,15 @@ npm install -g @upstash/context7-mcp
 ## User Prompt
 
 ```txt
-Create a Next.js authentication system using the latest App Router patterns
+Build a Next.js middleware authentication system using JWT cookies. Use Context7.
 ```
 
 ## Context7 MCP
 
-- Fetches latest Next.js documentation
-- Retrieves current authentication examples
-- Supplies framework-aware references
-- Helps Codex generate updated implementations
+- Retrieves latest Next.js middleware docs
+- Fetches authentication examples
+- Supplies accurate App Router patterns
+- Helps Codex avoid outdated APIs
 
 ## Final Outcome
 
@@ -109,6 +194,18 @@ More accurate and modern framework implementations.
 
 ---
 
+# Supported Ecosystems
+
+- React
+- Next.js
+- Node.js
+- TypeScript
+- Python
+- APIs and SDKs
+- Modern web frameworks
+
+---
+
 # Recommended For
 
 - AI coding assistants
@@ -117,18 +214,6 @@ More accurate and modern framework implementations.
 - Framework-heavy projects
 - API integrations
 - Rapid prototyping
-
----
-
-# Supported Ecosystems
-
-- React
-- Next.js
-- Node.js
-- Python
-- TypeScript
-- APIs and SDKs
-- Modern web frameworks
 
 ---
 
@@ -141,10 +226,10 @@ More accurate and modern framework implementations.
 # Future Improvements
 
 - Multi-source documentation aggregation
-- Semantic code retrieval
-- Better version-awareness
-- IDE integrations
+- Better semantic retrieval
 - Advanced context ranking
+- IDE integrations
+- Improved version-awareness
 
 ---
 
@@ -153,10 +238,10 @@ More accurate and modern framework implementations.
 Contributions are welcome!
 
 Potential contributions:
-- Additional integrations
-- Better retrieval strategies
-- Documentation indexing improvements
-- Workflow examples
+- Additional setup guides
+- Integration examples
+- Better workflow templates
+- More framework-specific examples
 
 ---
 
