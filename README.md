@@ -25,211 +25,72 @@ Inspired by the growing ecosystem around AI-powered development workflows, this 
 
 # Productivity
 
-### grill-me Skill
-Facilitates a shared understanding between the user and Codex through iterative clarifying questions.
-
-**Use Cases**
-- Better prompt refinement
-- Requirement clarification
-- Improved task accuracy
-
-`Skill` `Workflow` `Prompting`
-
----
-
-### Apple Reminders
-Manage reminders directly from Codex on macOS including recurring tasks, alarms, and list management.
-
-**Features**
-- Add recurring reminders
-- Mark reminders complete
-- Move reminders between lists
-- Review overdue reminders
-
-`Productivity` `macOS` `Automation`
-
----
-
-### Superpowers Optimized
-A plugin focused on balancing utility, token management, and performance optimization for Codex workflows.
-
-**Highlights**
-- Better token efficiency
-- Faster workflows
-- Optimized performance
-
-`Optimization` `Performance`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **grill-me Skill** | Facilitates shared understanding between the user and Codex through iterative clarifying questions. | Prompt refinement, requirement clarification, improved task accuracy | `Skill` `Workflow` `Prompting` |
+| **Apple Reminders** | Manage reminders directly from Codex on macOS. | Recurring reminders, overdue tracking, task management | `Productivity` `macOS` `Automation` |
+| **Superpowers Optimized** | Optimized plugin focused on balancing utility, token management, and performance. | Faster workflows, token efficiency, workflow optimization | `Optimization` `Performance` |
 
 ---
 
 # AI & Machine Learning
 
-### Context7 MCP
-Feeds up-to-date documentation and code examples into AI models, helping Codex understand and generate more accurate code.
-
-**Use Cases**
-- Real-time documentation access
-- Better code generation
-- Framework-aware responses
-
-`MCP` `Documentation` `AI`
-
----
-
-### Hugging Face Plugin
-Integrates Hugging Face workflows and models directly into Codex-based development workflows.
-
-**Features**
-- Access ML models
-- AI experimentation
-- Model integration
-
-`AI` `ML` `HuggingFace`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Context7 MCP** | Feeds up-to-date documentation and code examples into AI models for better code generation. | Documentation access, framework-aware coding, code generation | `MCP` `Documentation` `AI` |
+| **Hugging Face Plugin** | Integrates Hugging Face models and workflows into Codex. | AI experimentation, ML workflows, model integration | `AI` `ML` `HuggingFace` |
 
 ---
 
 # Developer Tools
 
-### Sandcastle
-Improves codebase cleanliness, organization, and structure.
-
-**Features**
-- Cleaner repositories
-- Better project organization
-- Improved maintainability
-
-`Code Quality` `Developer Tools`
-
----
-
-### GitNexus
-Provides code graphing and repository relationship visualization across multiple repositories.
-
-**Use Cases**
-- Multi-repo analysis
-- Dependency visualization
-- Codebase navigation
-
-`Git` `Visualization` `Developer Tools`
-
----
-
-### dotnet-artisan
-Comprehensive .NET development plugin providing specialist agents and workflows for modern .NET development.
-
-**Supports**
-- C#
-- ASP.NET Core
-- EF Core
-- Blazor
-- MAUI
-- DevOps workflows
-
-`DotNet` `CSharp` `Developer Tools`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Sandcastle** | Improves codebase cleanliness, structure, and maintainability. | Cleaner repositories, better project structure | `Code Quality` `Developer Tools` |
+| **GitNexus** | Provides repository graphing and visualization across multiple repositories. | Multi-repo analysis, dependency visualization | `Git` `Visualization` `Developer Tools` |
+| **dotnet-artisan** | Comprehensive .NET development plugin with specialist workflows and agents. | ASP.NET, EF Core, Blazor, MAUI, DevOps | `DotNet` `CSharp` `Developer Tools` |
 
 ---
 
 # Collaboration
 
-### Slack
-Use Slack with Codex to summarize channels, draft messages, and organize team conversations.
-
-**Features**
-- Channel summarization
-- Draft responses
-- Team communication workflows
-
-`Slack` `Communication` `Team Productivity`
-
----
-
-### Linear Plugin
-Powerful Linear integration for modern software development workflows.
-
-**Features**
-- Read tickets
-- Generate implementations
-- Update tasks
-- Create PR-linked workflows
-
-`Linear` `Project Management` `Development Workflow`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Slack** | Summarize channels, draft messages, and organize conversations through Slack integration. | Team communication, summaries, collaboration | `Slack` `Communication` `Team Productivity` |
+| **Linear Plugin** | Powerful integration for software development workflows using Linear. | Ticket management, PR workflows, task automation | `Linear` `Project Management` `Development Workflow` |
 
 ---
 
 # Agent Systems & Automation
 
-### Agent Message Queue
-File-based inter-agent messaging system with federation and orchestrator integrations.
-
-**Features**
-- Cooperative agent workflows
-- Inter-agent communication
-- Federation support
-
-`Agents` `Automation` `Coordination`
-
----
-
-### Orchestrator and Bug Fixer
-Custom workflow skills designed to improve debugging and development productivity.
-
-**Use Cases**
-- Workflow orchestration
-- Automated debugging
-- Task coordination
-
-`Automation` `Debugging` `Agents`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Agent Message Queue** | File-based inter-agent messaging with federation and orchestrator integrations. | Agent coordination, workflow automation | `Agents` `Automation` `Coordination` |
+| **Orchestrator and Bug Fixer** | Workflow skills designed to improve debugging and development productivity. | Automated debugging, orchestration workflows | `Automation` `Debugging` `Agents` |
 
 ---
 
 # Design & UI
 
-### Figma
-Figma workflows for implementing designs in code and generating project-specific design system rules.
-
-**Features**
-- Figma-to-code workflows
-- Component mapping
-- Design system integration
-
-`Figma` `UI/UX` `Frontend`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Figma** | Figma workflows for implementing designs in code and generating design system rules. | Design-to-code, component mapping, UI workflows | `Figma` `UI/UX` `Frontend` |
 
 ---
 
 # Memory & Context
 
-### Codex Mem
-Persistent memory system for Codex that preserves context across development sessions.
-
-**Features**
-- Context preservation
-- Persistent memory
-- Session continuity
-
-`Memory` `Context` `Productivity`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Codex Mem** | Persistent memory system for Codex across sessions. | Context preservation, session continuity | `Memory` `Context` `Productivity` |
 
 ---
 
 # Integrations
 
-### Composio
-Connects OpenAI Codex to thousands of apps and APIs through MCP servers.
-
-**Supports**
-- GitHub
-- Slack
-- Notion
-- Gmail
-- Google Docs
-- Linear
-- and many more
-
-**Use Cases**
-- Autonomous workflows
-- Tool calling
-- Cross-platform automation
-
-`MCP` `Automation` `Integrations`
+| Plugin | Description | Use Cases | Tags |
+|---|---|---|---|
+| **Composio** | Connects OpenAI Codex to thousands of apps and APIs through MCP servers. | Autonomous workflows, integrations, automation | `MCP` `Automation` `Integrations` |
 
 ---
 
