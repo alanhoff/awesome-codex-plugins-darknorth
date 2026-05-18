@@ -60,6 +60,7 @@ Inspired by the growing ecosystem around AI-powered development workflows, this 
 
 | Plugin | Description | Use Cases | Tags |
 |---|---|---|---|
+| **codex-profiles** | Switch Codex CLI and Codex Desktop accounts with isolated `CODEX_HOME` profiles instead of copying auth files. | Multi-account Codex workflows, profile isolation, CLI/Desktop account switching | `Codex` `CLI` `Developer Tools` |
 | **Sandcastle** | Improves codebase cleanliness, structure, and maintainability. | Cleaner repositories, better project structure | `Code Quality` `Developer Tools` |
 | **GitNexus** | Provides repository graphing and visualization across multiple repositories. | Multi-repo analysis, dependency visualization | `Git` `Visualization` `Developer Tools` |
 | **dotnet-artisan** | Comprehensive .NET development plugin with specialist workflows and agents. | ASP.NET, EF Core, Blazor, MAUI, DevOps | `DotNet` `CSharp` `Developer Tools` |
