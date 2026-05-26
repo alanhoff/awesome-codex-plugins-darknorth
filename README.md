@@ -10,8 +10,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Codex-Plugins-blue" />
-  <img src="https://img.shields.io/badge/MCP-Supported-green" />
-  <img src="https://img.shields.io/badge/Contributions-Welcome-orange" />
 </p>
 
 > A curated collection of the best plugins, MCP servers, workflows, integrations, and developer tools for OpenAI Codex.
