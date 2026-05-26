@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Codex-Plugins-blue" />
+  <img src="[https://img.shields.io/badge/Codex-Plugins-blue](https://github.com/darknorth-123/Awesome-Codex-Plugins/tree/main/Plugins)" />
 </p>
 
 > A curated collection of the best plugins, MCP servers, workflows, integrations, and developer tools for OpenAI Codex.
