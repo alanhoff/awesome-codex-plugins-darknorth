@@ -97,6 +97,7 @@ Inspired by the growing ecosystem around AI-powered development workflows, this 
 | Plugin | Description | Use Cases | Tags |
 |---|---|---|---|
 | **Codex Mem** | Persistent memory system for Codex across sessions. | Context preservation, session continuity | `Memory` `Context` `Productivity` |
+| **[AccInt](https://github.com/maxbaluev/accreted-intelligence)** | Local-first MCP Work Model for Codex and coding agents with scored retrieval, commitments, and outcome-based credit. | Agent memory, cross-session learning, accountable autonomous workflows | `MCP` `Memory` `Codex` |
 
 ---
 
