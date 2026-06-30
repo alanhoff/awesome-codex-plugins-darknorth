@@ -106,6 +106,7 @@ Inspired by the growing ecosystem around AI-powered development workflows, this 
 | Plugin | Description | Use Cases | Tags |
 |---|---|---|---|
 | **Composio** | Connects OpenAI Codex to thousands of apps and APIs through MCP servers. | Autonomous workflows, integrations, automation | `MCP` `Automation` `Integrations` |
+| **[Hermes Tweet](Plugins/Hermes%20Tweet/)** | Native Hermes Agent plugin for X/Twitter research, monitoring, drafting, and approved actions. | Social listening, tweet drafts, reply monitoring, follower exports | `Hermes Agent` `Twitter` `Social Media` `Automation` |
 
 ---
 
