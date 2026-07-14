@@ -63,6 +63,7 @@ Inspired by the growing ecosystem around AI-powered development workflows, this 
 | **GitNexus** | Provides repository graphing and visualization across multiple repositories. | Multi-repo analysis, dependency visualization | `Git` `Visualization` `Developer Tools` |
 | **[agenttrace](https://github.com/luoyuctl/agenttrace)** | Local CLI/TUI for Codex CLI and coding-agent session history. | Session replay, cost and token review, slow-run diagnostics | `CLI` `Observability` `Developer Tools` |
 | **dotnet-artisan** | Comprehensive .NET development plugin with specialist workflows and agents. | ASP.NET, EF Core, Blazor, MAUI, DevOps | `DotNet` `CSharp` `Developer Tools` |
+| **[BEAI Harness for Codex](https://github.com/nbeai/beai-harness-for-codex)** | Public-candidate Codex workflow harness for planning, evidence generation, recovery, field-readiness simulation, and release gates. | Review-first Codex workflows, verification evidence, plugin setup checks, readiness and closeout gates | `Codex` `Workflow` `Verification` |
 
 ---
 
