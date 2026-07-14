@@ -107,6 +107,7 @@ Inspired by the growing ecosystem around AI-powered development workflows, this 
 
 | Plugin | Description | Use Cases | Tags |
 |---|---|---|---|
+| **[Taisly Agent Kit](https://github.com/taisly/agent)** | Publish short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook from Codex through Taisly. | Social video publishing, launch clips, creator workflows | `MCP` `Social Media` `Video Publishing` |
 | **Composio** | Connects OpenAI Codex to thousands of apps and APIs through MCP servers. | Autonomous workflows, integrations, automation | `MCP` `Automation` `Integrations` |
 
 ---
